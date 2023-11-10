@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+ 
+<div class="container p-5 my-5 border">
+    <h1>My First Bootstrap Page</h1>
+    <p>This container has a border and some extra padding and margins.</p>
+  </div>
+  
+  <div class="container p-5 my-5 bg-dark text-white">
+    <h1>My First Bootstrap Page</h1>
+    <p>This container has a dark background color and a white text, and some extra padding and margins.</p>
+  </div>
+  
+  <div class="container p-5 my-5 bg-primary text-white">
+    <h1>My First Bootstrap Page</h1>
+    <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
+  </div>
+    
+<div class="container pt-3">
+    <h1>Responsive Containers</h1>
+    <p>Resize the browser window to see the effect.</p>
+  </div>
+  
+  <div class="container-sm border">.container-sm</div>
+  <div class="container-md mt-3 border">.container-md</div>
+  <div class="container-lg mt-3 border">.container-lg</div>
+  <div class="container-xl mt-3 border">.container-xl</div>
+  <div class="container-xxl mt-3 border">.container-xxl</div>
+
+    
+<div class="container-fluid mt-3">
+    <h1>Three equal width columns</h1>
+    <p>Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.</p>
+    <div class="row">
+      <div class="col p-3 bg-primary text-white">.col</div>
+      <div class="col p-3 bg-dark text-white">.col</div>
+      <div class="col p-3 bg-primary text-white">.col</div>
+    </div>
+  </div>
+  <div class="container-fluid mt-3">
+    <h1>Responsive Columns</h1>
+    <p>Resize the browser window to see the effect.</p>
+    <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+    <div class="row">
+      <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+      <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+      <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+      <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+    </div>
+  </div>
+  <div class="container-fluid mt-3">
+    <h1>Two Unequal Responsive Columns</h1>
+    <p>Resize the browser window to see the effect.</p>
+    <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+    <div class="row">
+      <div class="col-sm-4 p-3 bg-primary text-white">.col</div>
+      <div class="col-sm-8 p-3 bg-dark text-white">.col</div>
+    </div>
+  </div>
+  <div class="container mt-3">
+    <p>The font-size of each Bootstrap heading depends on the screen size. Try to resize the browser window to see the effect.</p>
+    <h1>h1 Bootstrap heading</h1>
+    <h2>h2 Bootstrap heading</h2>
+    <h3>h3 Bootstrap heading</h3>
+    <h4>h4 Bootstrap heading</h4>
+    <h5>h5 Bootstrap heading</h5>
+    <h6>h6 Bootstrap heading</h6>
+  </div>
+  
+<div class="container mt-3">
+    <h1>Display Headings</h1>
+    <p>Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight):</p>
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+    <h1 class="display-5">Display 5</h1>
+    <h1 class="display-6">Display 6</h1>
+  </div>
+  
+<div class="container mt-3">
+    <h1>Smaller, Secondary Text</h1>
+    <p>The small element (and the .small class) is used to create a smaller, secondary text in any heading:</p>       
+    <h1>h1 heading <small>secondary text</small></h1>
+    <h2>h2 heading <small>secondary text</small></h2>
+    <h3>h3 heading <small>secondary text</small></h3>
+    <h4>h4 heading <small>secondary text</small></h4>
+    <h5>h5 heading <small>secondary text</small></h5>
+    <h6>h6 heading <small>secondary text</small></h6>
+  </div>
+  <div class="container mt-3">
+    <h1>Blockquotes</h1>
+    <p>The blockquote element is used to present content from another source:</p>
+    <blockquote class="blockquote">
+      <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+      <footer class="blockquote-footer">From WWF's website</footer>
+    </blockquote>
+  </div>  
+  <h1>Use the mark Element to<mark> HighLight</mark> text</h1>
+  <h1>The <abbr title="World Health Organization">WHO </abbr>was found in 1948</h1>
+  <h1>Coffe <dl>Black Hot Drink</dl></h1>
+  <h1>Milk <dl>White Hot Drink</dl></h1>
+  <h1>Hello <code>World</code></h1>
+  <p>Use <kbd>Ctrl+p</kbd> to open </p>
+  
+<div class="container mt-3">
+    <h2>Contextual Colors</h2>
+    <p>Use the contextual classes to provide "meaning through colors":</p>
+    <p class="text-muted">This text is muted.</p>
+    <p class="text-primary">This text is important.</p>
+    <p class="text-success">This text indicates success.</p>
+    <p class="text-info">This text represents some information.</p>
+    <p class="text-warning">This text represents a warning.</p>
+    <p class="text-danger">This text represents danger.</p>
+    <p class="text-secondary">Secondary text.</p>
+    <p class="text-dark">This text is dark grey.</p>
+    <p class="text-body">Default body color (often black).</p>
+    <p class="text-light">This text is light grey (on white background).</p>
+    <p class="text-white">This text is white (on white background).</p>
+  </div>
+  
+<div class="container mt-3">
+    <h2>Opacity Text Colors</h2>
+    <p>Add 50% opacity for black or white text with the .text-black-50 or .text-white-50 classes:</p>
+    <p class="text-black-50">Black text with 50% opacity on white background</p>
+    <p class="text-white-50 bg-dark">White text with 50% opacity on black background</p>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Aligning images</h2>
+    <p>Use the float classes to float the image to the left or to the right:</p> 
+    <img src="/images/paris.jpg" class="float-start" alt="Paris" width="304" height="236"> 
+    <img src="/images/paris.jpg" class="float-end" alt="Paris" width="304" height="236"> 
+  </div> 
+  
+<div class="container mt-3">
+    <h2>Image</h2>
+    <p>The .img-fluid class makes the image scale nicely to the parent element (resize the browser window to see the effect):</p>
+    <img class="img-fluid" src="/images/ny.jpg" alt="New York" width="1100" height="500"> 
+  </div>
+   
+<div class="container mt-3">
+    <h2>Example of Jumbotron</h2>
+    <div class="mt-4 p-5 bg-primary text-white rounded">
+      <h1>Jumbotron Example</h1> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+    </div>javascript:void(0)
+  </div>
+  <div class="alert alert-success">
+    <strong>Success!</strong> Indicates a successful or positive action.
+  </div>
+  <div class="alert alert-success alert-dismissible">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+  
+<div class="container mt-3">
+    <h2>Button Styles</h2>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-link">Link</button>      
+  </div>
+  <div class="container mt-3">
+    <h2>Button Elements</h2>
+    <a href="#" class="btn btn-success">Link Button</a>
+    <button type="button" class="btn btn-success">Button</button>
+    <input type="button" class="btn btn-success" value="Input Button">
+    <input type="submit" class="btn btn-success" value="Submit Button">
+    <input type="reset" class="btn btn-success" value="Reset Button">
+  </div>
+  <div class="container mt-3">
+    <h2>Button Outline</h2>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <button type="button" class="btn btn-outline-light text-dark">Light</button>
+  </div>
+  <div class="container mt-3">
+    <h2>Button Sizes</h2>
+    <button type="button" class="btn btn-primary btn-lg">Large</button>
+    <button type="button" class="btn btn-primary btn-md">Default</button>    
+    <button type="button" class="btn btn-primary btn-sm">Small</button>
+  </div>
+  <div class="d-grid">
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  </div>
+  <hr>
+  <div class="d-grid gap-3">
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  </div>
+  <button type="button" class="btn btn-primary active">Active Primary</button>
+<button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+<a href="#" class="btn btn-primary disabled">Disabled Link</a>
+
+<div class="container mt-3">
+    <h2>Spinner Buttons</h2>
+    <p>Add spinners to buttons:</p>
+                                          
+    <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+    </button>
+  
+    <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+      Loading..
+    </button>
+    
+    <button class="btn btn-primary" disabled>
+      <span class="spinner-border spinner-border-sm"></span>
+      Loading..
+    </button>
+    
+    <button class="btn btn-primary" disabled>
+      <span class="spinner-grow spinner-grow-sm"></span>
+      Loading..
+    </button>
+  </div>
+  <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+<h2>Example heading <span class="badge bg-secondary">New</span></h2>
+<h3>Example heading <span class="badge bg-secondary">New</span></h3>
+<h4>Example heading <span class="badge bg-secondary">New</span></h4>
+<h5>Example heading <span class="badge bg-secondary">New</span></h5>
+<h6>Example heading <span class="badge bg-secondary">New</span></h6>
+  
+<div class="container mt-3">
+    <h2>Animated Progress Bar</h2>
+    <p>Add the .progress-bar-animated class to animate the progress bar:</p> 
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+    </div>
+  </div>
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</body>
+</html>
